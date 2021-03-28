@@ -78,6 +78,105 @@ nav {
     top: 19%;
 }
 
+#how-it-works {
+    color: #404040;
+    font-size: xx-large;
+    display: center;
+}
+
+#main {
+    margin: auto;
+    padding: 30;
+}
+
+.columns {
+    width: 75%;
+    display: flex;
+    margin: auto;
+}
+
+.column {
+    margin: 3%;
+}
+
+.bullets {
+    color: #8e8e8e;
+}
+
+.unordered-list {
+    list-style-type: none;
+}
+
+#text-box {
+    width: 69%;
+    height: 333px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin: -11% auto 25px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#svg-small {
+    height: 50%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#jpg-small {
+    height: 40%;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#text-box-text {
+    padding-right: 75px;
+}
+
+#text-box p:nth-child(1) {
+    color: #404040;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+#text-box p:nth-child(2) {
+    color:  #404040;
+    font-size: large;
+    font-weight: bold;
+    margin: 0;
+}
+
+#text-box p:nth-child(3) {
+    color: #8e8e8e;
+    margin-top: 20px;
+}
+
+.myButtonSmall {
+    cursor: pointer;
+    font-size: large;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #0497C5;
+    color: #0497C5;
+    padding: 12px 25px;
+}
+
+.myButtonSmall:hover {
+    background-color: #0497C5;
+    color: white;
+}
+
+.myButtonSmall:active {
+    position: relative;
+    top: 1px;
+}
+
 /* Footer */
 #footer {
     height: 7vh;
@@ -87,7 +186,7 @@ nav {
     background-color: white;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.2);
     padding: 0 200px;
-    color: #404040;
+    color:#404040;
     font: large;
 }
 
