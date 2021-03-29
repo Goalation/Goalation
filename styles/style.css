@@ -82,6 +82,8 @@ nav {
     color: #404040;
     font-size: xx-large;
     display: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #main {
