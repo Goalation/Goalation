@@ -22,9 +22,6 @@
                     <a class="nav-link" href="goals.html">Your Goals.</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="impact.html">Your Impact.</a>
-                </li>
-                <li>
                     <a class="nav-link" href="about-us.html">About Us.</a>
                 </li>
             </ul>
@@ -35,7 +32,31 @@
 
     <!-- Main Section -->
     <section id="main">
-        <div></div>
+        <div>
+            <h1>GOALS</h1>
+            <form id="goalsetting">
+                <input type="text" id="period" placeholder=                             "Period(daily,weekly,monthly)">
+                <input type="text" id="goal" placeholder="Goal">
+                <input type="text" id="donation" placeholder="Donation">
+                <input type="button" class="add-row" value="Add">
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th><h2>Select</h2></th>
+                        <th><h2>Period</h2></th>
+                        <th><h2>Goal</h2></th>
+                        <th><h2>Donation</h2></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" name="record"></td>           
+                    </tr>
+                </tbody>
+            </table>
+                <button type="button" class="delete-row">Delete</button>
+        </div>
     </section>
 
     <!-- Footer -->
