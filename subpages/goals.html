@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" 
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous"></script>
     <title>Goalation - Your Goals</title>
 </head>
 
@@ -30,12 +33,34 @@
         </nav>
     </section>
 
+     <!-- Introduction-->
+     <section>
+        <div id="intro-text">
+            <p>The secret of getting ahead is getting started</p>
+            <p>– Mark twain</p>
+            <p>Define your own goals.</p>
+            <p>We take care of your commitment.</p>
+        </div>
+    </section>
+
     <!-- Main Section -->
+    <section id="text-box">
+        <img src="../images/winners.svg" alt="world map" id="svg-winners">
+        
+        <div id="text-box-text">
+            <p>Your goal setting</p>
+            <p>Just insert the timeframe, your goal and the preferred amount of money which is on the line in the table below.</p>
+            <p>If you did a mistake or want to erase a goal you set before - just click the checkbox of this specific goal and press the "delete" button afterwards. Your goal should be deleted.</p>
+            <br>
+            <h1>Let's get started!</h1>
+        </div>
+    </section>
+
     <section id="main">
         <div>
             <h1>GOALS</h1>
             <form id="goalsetting">
-                <input type="text" id="period" placeholder=                             "Period(daily,weekly,monthly)">
+                <input type="text" id="period" placeholder="Daily, Weekly, Monthly">
                 <input type="text" id="goal" placeholder="Goal">
                 <input type="text" id="donation" placeholder="Donation">
                 <input type="button" class="add-row" value="Add">
